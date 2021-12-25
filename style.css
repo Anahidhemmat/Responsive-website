@@ -320,3 +320,31 @@ nav .fas {
     font-size: 1.6rem;
   }
 }
+/* Footer */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+.footer h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1.5rem 0 2rem;
+}
+.footer p {
+  font-size: 1.1rem;
+}
+.icons i {
+  color: #f55336;
+  margin: 0 0.7rem;
+  padding: 1.1rem 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.footer-p {
+  font-size: 1rem;
+}
+.footer-p i {
+  color: #f55336;
+  margin-left: 0.5%;
+}
