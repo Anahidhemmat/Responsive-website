@@ -297,3 +297,26 @@ nav .fas {
     margin-right: 15px;
   }
 }
+/* Call To Action Section */
+.cta {
+  width: 80%;
+  margin: 4rem auto;
+  padding: 6.25rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/eduford_img/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+}
+.cta h1 {
+  color: #fff;
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+/* cta media queries */
+@media screen and (max-width: 700px) {
+  .cta h1 {
+    font-size: 1.6rem;
+  }
+}
