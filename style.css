@@ -119,7 +119,6 @@ nav .fas {
     z-index: 999;
     text-align: left;
     transition: 0.8s;
-    display: none;
   }
   nav .fas {
     display: block;
@@ -348,3 +347,4 @@ nav .fas {
   color: #f55336;
   margin-left: 0.5%;
 }
+/* About us page */
