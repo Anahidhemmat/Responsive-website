@@ -110,7 +110,7 @@ nav .fas {
     margin: 1rem;
   }
   .nav-link {
-    position: absolute;
+    position: fixed;
     width: 200px;
     height: 100vh;
     top: 0;
@@ -454,4 +454,48 @@ nav .fas {
 }
 .comment-form button {
   margin: 0.8rem 0;
+}
+/* Contact us */
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 4rem 0;
+}
+.location iframe {
+  width: 100%;
+}
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 2rem;
+}
+.contact-col section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.contact-col i {
+  font-size: 1.3rem;
+  color: #f44336;
+  margin: 0.6rem;
+  margin-right: 1rem;
+}
+.contact-col p {
+  padding: 0;
+}
+.contact-col h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 5px;
+}
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.4rem;
+  box-sizing: border-box;
 }
