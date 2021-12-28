@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonawsome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="sub-header">
+      <!-- Navigation -->
+      <nav>
+        <a href="index.html"
+          ><img src="images/eduford_img/logo.png" alt="logo"
+        /></a>
+        <section class="nav-link" id="navLink">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </section>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>OUR CERTIFICATE & ONLINE PROGRAMS</h1>
+    </section>
+    <!-- Blog content --> 
+    <section class="blog-content">
+        <section class="row">
+            <section class="blog-left">
+                <img src="images/eduford_img/certificate.jpg" alt="a girl with certificate">
+                <h2>Our Certificate & Online Programs</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, delectus! Provident quod quis quia nobis deserunt odit animi delectus praesentium doloribus? Ratione dignissimos corporis debitis ducimus vitae repellendus quod sunt.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid consequatur cupiditate odio id excepturi voluptate obcaecati vitae beatae pariatur ab veritatis est laboriosam facere eius cumque, quas blanditiis modi eos?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quos veniam id ipsum. Iste temporibus obcaecati veniam. Architecto pariatur, blanditiis dolorem, ex error nostrum exercitationem harum aliquam eaque reiciendis rerum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam harum consectetur asperiores minima repudiandae cumque facere assumenda. Velit totam eos mollitia, laborum quaerat, repellendus vero eligendi numquam officiis iure fuga!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque architecto sed consectetur expedita ea. Incidunt culpa eius, eaque mollitia illum voluptatum architecto dolore. Dolorem incidunt officiis tempora saepe in quibusdam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptate quas saepe sequi nihil esse repellat laborum delectus tempore cupiditate, at reiciendis. Accusamus quas non voluptatibus temporibus rem perspiciatis quisquam.</p>
+
+                <!-- Coment Box -->
+                <section class="comment-box">
+                    <h3>LEAVE A COMMENT</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="header-btn explore-btn">POST COMMENT</button>
+                    </form>
+                </section>
+            </section>
+            <section class="blog-right">
+                <h3>Post Categories</h3>
+                <section>
+                    <span>
+                        Business Analytics
+                    </span>
+                    <span>21</span>
+                </section>
+                <section>
+                    <span>
+                        Business Analytics
+                    </span>
+                    <span>21</span>
+                </section>
+                <section>
+                    <span>
+                        Business Analytics
+                    </span>
+                    <span>21</span>
+                </section>
+                <section>
+                    <span>
+                        Business Analytics
+                    </span>
+                    <span>21</span>
+                </section>
+                <section>
+                    <span>
+                        Business Analytics
+                    </span>
+                    <span>21</span>
+                </section>
+                <section>
+                    <span>
+                        Business Analytics
+                    </span>
+                    <span>21</span>
+                </section>
+            </section>
+        </section>
+
+    </section>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+      <h3>ABOUT US</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        <br />
+        libero velit, architecto eligendi beatae tempora veniam! Laboriosam, rem
+      </p>
+      <section class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-whatsapp"></i>
+      </section>
+      <p class="footer-p">Created By Anahid<i class="far fa-heart"></i></p>
+    </section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      let navLink = document.getElementById("navLink");
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
