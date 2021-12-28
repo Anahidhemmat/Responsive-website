@@ -348,3 +348,46 @@ nav .fas {
   margin-left: 0.5%;
 }
 /* About us page */
+
+/* Header */
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/eduford_img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.sub-header h1 {
+  color: #fff;
+  margin-top: 4rem;
+}
+/* About Content */
+
+.about {
+  width: 80%;
+  margin: auto;
+  padding: 4rem 0 4rem;
+}
+.about-col {
+  flex-basis: 48%;
+  padding: 2rem 2px;
+}
+.about-col img {
+  width: 100%;
+}
+.about-col h1 {
+  padding-top: 0;
+}
+.about-col p {
+  padding: 1rem 0 1.5rem;
+  font-size: 1rem;
+}
+.explore-btn {
+  color: #f44336;
+  border: 1px solid #f44336;
+}
+.explore-btn:hover {
+  color: #fff;
+}
